@@ -173,9 +173,12 @@ body {
     color: var(--color-ocean);
 }
 
+.list-menu a.line {
+    color: var(--color-ocean);
+}
+
 .line {
     position: relative;
-    color: var(--color-iris);
 }
 
 .line::after {
@@ -187,7 +190,7 @@ body {
     height: 4px;
     background-color: var(--color-ocean);
     border-radius: 2px;
-    color: var(--color-ocean);
+
 }
 
 .address {
