@@ -523,7 +523,11 @@ body {
 .close:hover,
 .close:focus {
     background-color: var(--color-ocean);
-    color: var(--color-cloud);
+    color: var(--color-white);
+}
+
+.close-btn {
+    position: relative;
 }
 
 /* portfolio */
